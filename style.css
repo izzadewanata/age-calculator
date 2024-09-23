@@ -60,35 +60,30 @@ label {
     font-weight: bold;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px) {  
     .main-container {
-        padding: 20px;
+        padding-bottom: 5px;
         max-width: 250px;
-        max-height: 150px;
-        margin-top: 30px;     /* move content to the center */
+        margin-top: 50px;     /* move content to the center */
         border-radius: 10px;
     }
-
     .submit {
         margin-bottom: 10px;
     }
-
     .heading {
         margin-bottom: 10px;
         font-size: 25px;
     }
-
     label {
         font-size: 13px;
-
     }
-
     .author {
         margin-top: 10px
     }
-
     #result {
-        margin: 10px auto;
         
+    }
+    #calendar {
+        width: 60%;
     }
 }
